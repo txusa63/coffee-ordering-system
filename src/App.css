@@ -1,5 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  /* text-decoration: none; */
+}
+
 .App {
   text-align: center;
+  /* Below is added */
+  /* width: 400px;
+  margin: 0 auto;
+  margin-top: 50px; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .App-logo {
@@ -36,3 +51,66 @@
     transform: rotate(360deg);
   }
 }
+
+/* Form {
+  margin: auto;
+  position: relative;
+  height: 550px;
+  width: 450px;
+} */
+
+select.form-control {
+  -webkit-appearance: menulist;
+}
+
+.images {
+  /* object-fit: fill; */
+  /* background-image: url('/cappuccino.jpg'); */
+  max-width: 50%;
+  max-height: 50%;
+  /* width: auto; */
+
+  display: block;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 650px;
+  margin: 1rem auto;
+  overflow: auto;
+  padding: 0 2rem;
+} 
+
+.form-group {
+  margin: 1rem 0;
+}
+
+/* label, select, option {
+  float: left;
+  margin: 5px 0px;
+} */
+
+/* input {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+} */
+
+/* input[type='text'],
+select,
+textarea {
+  display: inline;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+} */
+
