@@ -1,4 +1,4 @@
-React-Flask calculator ordering app with a SQLite database. 
+React-Flask coffee ordering app with a SQLite database. 
 
 
 # Getting Started with Create React App
